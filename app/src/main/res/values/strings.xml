@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Latihan6</string>
+    <string name="textView_Main_Judul">Menghitung Segitiga</string>
+    <string name="textView_Main_Alas">Masukan Alas</string>
+    <string name="textView_Main_Tinggi">Masukan Tinggi</string>
+    <string name="button_Main_Hitung">Hitung</string>
+    <string name="textView_Hasil_Nilai">Hasil</string>
+</resources>

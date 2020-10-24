@@ -39,8 +39,9 @@ public class HasilActivity extends AppCompatActivity {
     }
 
     private void Cetak_luas(){
-        DecimalFormat precision = new DecimalFormat("0.00");
-        TV_Nilai.setText("Luas Segitiga: " + precision.format(Luas));
+        DecimalFormat presisi = new DecimalFormat("0.00");
+        TV_Nilai.setText("Luas Segitiga: " + Luas);
+        //TV_Nilai.setText("Luas Segitiga: " + presisi.format(Luas));
     }
 
 }

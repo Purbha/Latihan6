@@ -41,14 +41,14 @@
 
     <EditText
         android:id="@+id/editText_Main_Alas"
+        style="@style/editTextSub"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        style="@style/editTextSub"
-        app:layout_constraintEnd_toEndOf="parent"
         android:autofillHints="@string/textView_Main_Alas"
         android:hint="@string/textView_Main_Alas"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView_Main_Alas" />
 

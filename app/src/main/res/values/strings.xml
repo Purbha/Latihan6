@@ -5,4 +5,6 @@
     <string name="textView_Main_Tinggi">Masukan Tinggi</string>
     <string name="button_Main_Hitung">Hitung</string>
     <string name="textView_Hasil_Nilai">Hasil</string>
+    <string name="editText_Main_Alas">Silakan masukan alas</string>
+    <string name="editText_Main_Tinggi">Silakan masukan tinggi</string>
 </resources>

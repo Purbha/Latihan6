@@ -2,7 +2,6 @@ package com.ims_hr.latihan6;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -10,8 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    EditText E_Alas;
-    EditText E_Tinggi;
+    EditText E_Alas, E_Tinggi;
     Button B_Hitung;
 
     @Override
@@ -29,16 +27,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void Listen_B_Hitung() {
-        B_Hitung.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Integer Alas = Integer.parseInt(E_Alas.getText().toString());
-                Integer Tinggi = Integer.parseInt(E_Tinggi.getText().toString());
-                Intent In = new Intent(MainActivity.this,HasilActivity.class);
-                In.putExtra("alas",Alas);
-                In.putExtra("tinggi",Tinggi);
-                startActivity(In);
-            }
+        B_Hitung.setOnClickListener(v -> {
+            Integer Alas = Integer.parseInt(E_Alas.getText().toString());
+            Integer Tinggi = Integer.parseInt(E_Tinggi.getText().toString());
+            Intent In = new Intent(MainActivity.this,HasilActivity.class);
+            In.putExtra("alas",Alas);
+            In.putExtra("tinggi",Tinggi);
+            startActivity(In);
         });
     }
 
